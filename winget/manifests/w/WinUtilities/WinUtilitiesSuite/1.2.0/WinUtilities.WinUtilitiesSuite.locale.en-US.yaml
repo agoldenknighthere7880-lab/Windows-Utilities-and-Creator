@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.6.0.schema.json
+PackageIdentifier: WinUtilities.WinUtilitiesSuite
+PackageVersion: 1.2.0
+PackageLocale: en-US
+Publisher: WinUtilities Open Source Project
+PublisherUrl: https://github.com/winutilities/suite
+PublisherSupportUrl: https://github.com/winutilities/suite/issues
+PrivacyUrl: https://github.com/winutilities/suite/privacy
+Author: WinUtilities Contributors
+PackageName: WinUtilities Suite
+PackageUrl: https://github.com/winutilities/suite
+License: MIT
+LicenseUrl: https://github.com/winutilities/suite/blob/main/LICENSE
+Copyright: Copyright (c) 2026 WinUtilities Contributors
+CopyrightUrl: https://github.com/winutilities/suite/blob/main/LICENSE
+ShortDescription: High-fidelity system optimization and maintenance suite modeled after classic utility software.
+Description: An interactive, modern system optimization suite that lets you clean registry issues, shred files permanently, optimize RAM active stand-by blocks, manage startup items, and customize Windows installation stubs.
+Tags:
+  - utility
+  - system
+  - optimizer
+  - ram-cleaner
+  - registry-repair
+  - windows-creator
+  - debloater
+ReleaseNotes: Initial release with full-suite system diagnostics, RAM optimizer, registry fixer, startup booster, file shredder, and Setup.exe compilation assistants.
+ReleaseNotesUrl: https://github.com/winutilities/suite/releases/tag/v1.2.0
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

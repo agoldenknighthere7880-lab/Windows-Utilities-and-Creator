@@ -1,0 +1,6 @@
+{
+  "name": "System Utilities Suite",
+  "description": "An interactive, high-fidelity system optimization and maintenance suite modeled after classic utility software. Clean junk, optimize RAM, fix shortcuts, manage startup apps, and shred files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

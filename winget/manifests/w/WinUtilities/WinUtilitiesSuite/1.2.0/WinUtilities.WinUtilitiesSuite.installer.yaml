@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: WinUtilities.WinUtilitiesSuite
+PackageVersion: 1.2.0
+InstallerType: portable
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+Commands:
+  - winutilities
+Protocols:
+  - winutil
+FileExtensions:
+  - wut
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/winutilities/suite/releases/download/v1.2.0/setup_windows_custom_unattended_installer.exe
+    InstallerSha256: 3f7a1b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a
+    InstallerType: portable
+    PortableCommandAlias: winutilities
+ManifestType: installer
+ManifestVersion: 1.6.0
